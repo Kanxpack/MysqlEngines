@@ -1,5 +1,5 @@
 <?php
-namespace Kanxpack;
+namespace Kanxpack\MysqlEngines;
 
 class MysqlEngines {
 
@@ -10,14 +10,10 @@ class MysqlEngines {
     	return empty(self::$instance) ? (new self()) : self::$instance; 
     }
 
-	public static function expire(?int $value = null) : int|false
+	public static function all(void) : string
 	{
-		return session_cache_expire($value);
+		return 'TEST';
 	}
 
-	public static function limiter(?string $value = null) : string|false
-	{
-		return session_cache_limiter($value);
-	}
 
 }
