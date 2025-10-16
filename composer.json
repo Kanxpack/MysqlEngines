@@ -1,0 +1,17 @@
+{
+    "name": "kanxpack/mysqlengines",
+    "description": "Simple PHP API for MySQL Engines",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Kanxpack\\MysqlEngines\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Marco Monteiro"
+        }
+    ],
+    "require": {}
+}
