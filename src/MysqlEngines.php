@@ -10,7 +10,7 @@ class MysqlEngines {
     	return empty(self::$instance) ? (new self()) : self::$instance; 
     }
 
-	public static function all(void) : string
+	public static function all() : string
 	{
 		return 'TEST';
 	}
